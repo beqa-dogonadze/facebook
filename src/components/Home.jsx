@@ -4,7 +4,7 @@ import RightSide from './right-side/RightSide'
 
 const Home = () => {
   return (
-    <div className='flex absolute mt-20 p-3'>
+    <div className='flex absolute justify-between w-full mt-20 p-3'>
       <LeftSide />
       <Middle />
       <RightSide />
