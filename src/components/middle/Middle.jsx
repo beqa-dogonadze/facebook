@@ -1,10 +1,15 @@
-import NewPost from "./NewPost"
+import NewPost from './NewPost'
+import Posts from './Posts'
+import Story from './Story'
 
 const Middle = () => {
   return (
     <div>
-      <NewPost/>
+      <Story />
+      <NewPost />
+      <Posts />
+      <Posts />
     </div>
   )
-} 
+}
 export default Middle

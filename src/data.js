@@ -5,12 +5,7 @@ export const users = [
     lastname: 'Johnson',
     img: 'https://qph.cf2.quoracdn.net/main-qimg-6d72b77c81c9841bd98fc806d702e859-lq'
   },
-  {
-    id: 1,
-    name: 'Luis',
-    lastname: 'Amstrong',
-    img: 'https://static.toiimg.com/photo/76729750.cms'
-  },
+
   {
     id: 2,
     name: 'User',
@@ -49,9 +44,9 @@ export const users = [
   },
   {
     id: 8,
-    name: 'Gauqmda',
-    lastname: 'Gauqmda',
-    img: 'https://static.toiimg.com/photo/76729750.cms'
+    name: 'Luis',
+    lastname: 'doe',
+    img: 'https://qph.cf2.quoracdn.net/main-qimg-6d72b77c81c9841bd98fc806d702e859-lq'
   },
   {
     id: 9,
@@ -67,9 +62,9 @@ export const users = [
   },
   {
     id: 11,
-    name: 'User',
-    lastname: 'Userashvili',
-    img: 'https://static.toiimg.com/photo/76729750.cms'
+    name: 'Luis',
+    lastname: 'sadasdadas',
+    img: 'https://qph.cf2.quoracdn.net/main-qimg-6d72b77c81c9841bd98fc806d702e859-lq'
   },
   {
     id: 12,
@@ -83,12 +78,7 @@ export const users = [
     lastname: 'Amstrong',
     img: 'https://cdnb.artstation.com/p/assets/images/images/043/475/171/large/howl-random-guy.jpg?1637359240'
   },
-  {
-    id: 14,
-    name: 'User',
-    lastname: 'Userashvili',
-    img: 'https://static.toiimg.com/photo/76729750.cms'
-  },
+
   {
     id: 15,
     name: 'John',
@@ -107,12 +97,7 @@ export const users = [
     lastname: 'Userashvili',
     img: 'https://qph.cf2.quoracdn.net/main-qimg-6d72b77c81c9841bd98fc806d702e859-lq'
   },
-  {
-    id: 11,
-    name: 'User',
-    lastname: 'Userashvili',
-    img: 'https://static.toiimg.com/photo/76729750.cms'
-  },
+
   {
     id: 12,
     name: 'John',
@@ -124,12 +109,6 @@ export const users = [
     name: 'Luis',
     lastname: 'Amstrong',
     img: 'https://cdnb.artstation.com/p/assets/images/images/043/475/171/large/howl-random-guy.jpg?1637359240'
-  },
-  {
-    id: 14,
-    name: 'User',
-    lastname: 'Userashvili',
-    img: 'https://static.toiimg.com/photo/76729750.cms'
   },
   {
     id: 15,
