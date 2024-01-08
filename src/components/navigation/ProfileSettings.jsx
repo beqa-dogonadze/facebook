@@ -1,7 +1,6 @@
 import { CgMenuGridO } from 'react-icons/cg'
 import { FaFacebookMessenger } from 'react-icons/fa6'
-import { IoMdNotifications } from 'react-icons/io'
-const ProfileSettings = ({ href }) => {
+import { IoNotifications } from "react-icons/io5";const ProfileSettings = ({ href }) => {
   return (
     <ul className='flex text-2xl gap-3 text-gray-200'>
       <li className='bg-white bg-opacity-10 p-2 rounded-full'>
@@ -16,7 +15,7 @@ const ProfileSettings = ({ href }) => {
       </li>
       <li className='bg-white bg-opacity-10 p-2 rounded-full'>
         <a href={href}>
-          <IoMdNotifications />
+          <IoNotifications />
         </a>
       </li>
       <li>

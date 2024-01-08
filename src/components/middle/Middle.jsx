@@ -4,7 +4,7 @@ import Story from './Story'
 
 const Middle = () => {
   return (
-    <div>
+    <div className='m-auto  absolute flex flex-col w-[680px] justify-start left-0 right-0'>
       <Story />
       <NewPost />
       <Posts />
