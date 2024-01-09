@@ -1,6 +1,6 @@
 import { IoIosMore } from 'react-icons/io'
 import { IoSearchSharp } from 'react-icons/io5'
-import ContacItem from './ContacItem'
+import ContacItem from './ContactItem'
 const Contacts = () => {
   return (
     <div className='h-screen pt-20 fixed w-[350px] pr-2 right-0 bottom-0 overflow-hidden hover:overflow-y-auto'>

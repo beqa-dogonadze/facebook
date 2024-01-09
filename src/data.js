@@ -129,13 +129,13 @@ export const users = [
     img: 'https://qph.cf2.quoracdn.net/main-qimg-6d72b77c81c9841bd98fc806d702e859-lq'
   }
 ]
-export const leftItems = [
+export const leftitems = [
   {
     id: 0,
     desc: 'ბექა დოღონაძე',
     img: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'
   },
-  {
+  { 
     id: 1,
     desc: 'სიახლეების ზოლი',
     img: 'https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/eECk3ceTaHJ.png'
@@ -169,5 +169,11 @@ export const leftItems = [
     id: 7,
     desc: 'Ads Manager',
     img: 'https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/ATlxuj_J5ty.png'
+  },
+  {
+    id: 8,
+    desc: 'Ads Manager',
+    img: ''
   }
+
 ]

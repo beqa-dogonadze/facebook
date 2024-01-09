@@ -4,7 +4,7 @@ import LeftSideShortcuts from './LeftSideShortcuts'
 
 const LeftSide = () => {
   return (
-    <div className='w-[325px] fixed overflow-hidden hover:overflow-y-auto pt-16 bottom-0 h-screen'>
+    <div className='w-[360px] fixed overflow-hidden hover:overflow-y-auto pt-16 bottom-0 h-screen'>
       <LeftSideItemContainer />
       <LeftSideShortcuts />
       <Footer />

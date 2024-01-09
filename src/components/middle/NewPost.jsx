@@ -11,7 +11,7 @@ const NewPost = () => {
           width={40}
           className='rounded-[50%]'
         />
-        <button className='text-gray-400 text-md bg-[#3A3B3C] rounded-3xl p-2 w-full text-start'>
+        <button className='text-gray-400 text-md bg-[#3A3B3C] text-[17px] rounded-3xl p-2 w-full text-start'>
           ბექა, საკუთარ აზრს ხომ არ გაგვიზიარებდით?
         </button>
       </div>
