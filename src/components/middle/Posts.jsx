@@ -37,7 +37,7 @@ const Posts = () => {
       </div>
       <div className='bg-white flex justify-center'>
         <img
-          src='https://scontent.ftbs9-1.fna.fbcdn.net/v/t39.30808-6/416019783_387735503626837_4341676719300432067_n.jpg?stp=dst-jpg_s640x640&_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=fuJHnim0rcIAX8xRZRZ&_nc_ht=scontent.ftbs9-1.fna&oh=00_AfAEHYk0676ZiijJjIswLX4933JzE_y8OwHH3UwNDFvWKg&oe=659BC55A'
+          src='https://miro.medium.com/v2/resize:fit:1400/1*TzaiFDmkiEkOxNU7eG43pw.jpeg'
           alt=''
         />
       </div>

@@ -20,7 +20,7 @@ const Story = () => {
         <div className='bg-[#242526] rounded-full text-center p-1 absolute bottom-16'>
           <FiPlus className='p-1 text-3xl bg-blue-500 rounded-full' />
         </div>
-        <div className='p-3 pb-4 text-center'>
+        <div className='p-3 pb-2 text-center text-[14px]'>
           <h1>სიუჟეტის შექმნა</h1>
         </div>
       </div>
