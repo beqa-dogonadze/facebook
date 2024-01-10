@@ -1,6 +1,6 @@
 const LeftSideItem = ({ img, desc }) => {
   return (
-    <button className='flex items-center gap-2 mb-1 hover:bg-[#3A3B3C] p-2 pb-1 rounded-md w-[350px]'>
+    <button className='flex items-center gap-2 mb-1 hover:bg-[#3A3B3C] p-2 pl-1 pb-1 rounded-md w-[350px] h-[52px]'>
       <img
         src={img}
         alt={desc}

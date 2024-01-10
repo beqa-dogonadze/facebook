@@ -26,7 +26,6 @@ const Posts = () => {
             </div>
           </div>
         </div>
-
         <div className='flex text-2xl text-gray-400'>
           <button className='rounded-full hover:bg-[#3A3B3C] p-2'>
             <IoIosMore />
@@ -44,20 +43,18 @@ const Posts = () => {
       </div>
       <div>მოწონების, კომენტარის, გაზიარების რაოდენობა</div>
       <div className='flex justify-between border-t border-gray-600 ml-4 mr-4 mt-2 pl-4 pr-4 p-2 text-[#A8AAB1]'>
-        <div className='flex items-center gap-2'>
+        <button className='flex items-center gap-2'>
           <BiLike className='text-[20px]' />
           <h1>მოწონება</h1>
-        </div>
-
-        <div className='flex items-center gap-2'>
+        </button>
+        <button className='flex items-center gap-2'>
           <FaRegComment className='text-[20px]' />
           <h1>კომენტარის დამატება</h1>
-        </div>
-
-        <div className='flex items-center gap-2'>
+        </button>
+        <button className='flex items-center gap-2'>
           <PiShareFatLight className='text-[20px]' />
           <h1>გაზირება</h1>
-        </div>
+        </button>
       </div>
     </section>
   )

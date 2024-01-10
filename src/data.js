@@ -135,7 +135,7 @@ export const leftitems = [
     desc: 'ბექა დოღონაძე',
     img: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'
   },
-  { 
+  {
     id: 1,
     desc: 'სიახლეების ზოლი',
     img: 'https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/eECk3ceTaHJ.png'
@@ -172,8 +172,27 @@ export const leftitems = [
   },
   {
     id: 8,
+    desc: 'შეკვეთები და გადახდები',
+    img: 'https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/GJ4EaivDaSj.png'
+  },
+  {
+    id: 9,
+    desc: 'კლიმატოლოგიის ცენტრი',
+    img: 'https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Jr0q8qKF2-Y.png'
+  },
+  {
+    id: 10,
+    desc: 'ბოლოდროინდელი აქტივობა',
+    img: 'https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/x2_LFd7gCqg.png'
+  },
+  {
+    id: 11,
     desc: 'Ads Manager',
-    img: ''
+    img: 'https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/ATlxuj_J5ty.png'
+  },
+  {
+    id: 12,
+    desc: 'შეკვეთები და გადახდები',
+    img: 'https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/GJ4EaivDaSj.png'
   }
-
 ]

@@ -5,23 +5,23 @@
 body {
   background-color: #1e1e1e;
 }
-
 .main-container:hover .hidden {
-  display: inline-block; /* or display: block; depending on your layout */
+  display: inline-block;
 }
-
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  background-color: #18191A;
+  background-color: #18191a;
 }
-
 .swiper {
   width: 100%;
   height: 100%;
+}
+.react-multi-carousel-track {
+  gap: 20px;
+}
+.scrolled {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
 }
 
 .swiper-slide {
@@ -31,55 +31,11 @@ body {
   justify-content: space-between;
   margin-right: 0;
 }
-
 .swiper-slide img {
-  display: block;
   width: 100%;
 }
 .react-multi-carousel-list {
   display: flex;
   justify-content: space-between;
   color: white;
-}
-
-.react-multi-carousel-track {
-  width: 680px;
-  gap: 40px;
-  margin-bottom: 10px;
-}
-
-@media only screen and (min-width: 769px) {
-  .swiper-slide:first-child {
-    transition: transform 100ms;
-  }
-
-  .swiper-slide:first-child img {
-    transition: box-shadow 500ms;
-  }
-
-  .swiper-slide.swiper-slide-active:first-child {
-    transform: translateX(50%);
-    z-index: 2;
-  }
-
-  .swiper-slide.swiper-slide-active:first-child img {
-    box-shadow: 0px 32px 80px rgba(0, 0, 0, 0.35);
-  }
-
-  .swiper-slide:nth-child(2) {
-    transition: transform 100ms;
-  }
-
-  .swiper-slide.swiper-slide-next:nth-child(2) {
-    transform: translateX(55%);
-    z-index: 1;
-  }
-
-  .swiper[dir='rtl'] .swiper-slide.swiper-slide-active:first-child {
-    transform: translateX(-50%);
-  }
-
-  .swiper[dir='rtl'] .swiper-slide.swiper-slide-next:nth-child(2) {
-    transform: translateX(-55%);
-  }
 }

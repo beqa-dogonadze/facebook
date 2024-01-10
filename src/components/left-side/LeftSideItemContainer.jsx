@@ -18,7 +18,7 @@ const LeftSideItemContainer = () => {
 
   return (
     //display all items from "leftitems" array
-    <div>
+    <div className='mt-1'>
       {leftitems.slice(0, displayedItems).map((item) => (
         <LeftSideItem
           key={item.id}
